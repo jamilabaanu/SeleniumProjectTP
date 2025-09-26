@@ -47,7 +47,9 @@ public void verityhomepgtest(Method mtd)
 	boolean status = driver.findElement(By.xpath("//img[@alt='vtiger-crm-logo.gif']")).isEnabled();
 	if (status)
 	
-	{System.out.println("page is Verified=pass");}
+	{System.out.println("page is Verified=pass");
+	System.out.println("hello done");}
+	
 	else
 	{
 		System.out.println("Page is not Verified-Fail");

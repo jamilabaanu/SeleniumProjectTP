@@ -14,7 +14,7 @@ public class HomePageSampleSoftAssert {
 	SoftAssert obj=new SoftAssert();
 	System.out.println("step1");
 	System.out.println("step2");
-	obj.assertEquals("Home", "Home-Page");//try to fail TC useSoftAssert even though Testcase is failed all steps will get executed
+	obj.assertEquals("Home", "Home");//try to fail TC useSoftAssert even though Testcase is failed all steps will get executed
 	System.out.println("step3");
 	System.out.println("step4");
 	obj.assertEquals("Home-CRM", "Home-CRM");

@@ -11,7 +11,7 @@ public void homepgtest(Method mtd)
 {System.out.println(mtd.getName()+"Test Start");
 System.out.println("step1");
 System.out.println("step2");
-Assert.assertEquals("Home", "Home-Page");//try to fail TC HardAssert Skipped remaining TestCases
+Assert.assertEquals("Home", "Home");//try to fail TC make Expected result as "HOME-PAGE" HardAssert Skipped remaining TestCases
 System.out.println("step3");
 System.out.println("step4");
 Assert.assertEquals("Home-CRM", "Home-CRM");
