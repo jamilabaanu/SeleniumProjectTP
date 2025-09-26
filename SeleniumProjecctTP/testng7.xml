@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="aAssert.soft.hard.HomePageSampleTestHardAssert"/>
+      <class name="CreateOrgTest.OrgTest2"/>
+      <class name="CreateOrgTest.OrgTest"/>
+      <class name="aAssert.soft.hard.HomePageVerificationTest"/>
+      <class name="aAssert.soft.hard.NewClasstest"/>
+      <class name="aAssert.soft.hard.HomePageSampleSoftAssert"/>
+      <class name="CreatecontactTest.CotactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
